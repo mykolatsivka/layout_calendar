@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: $day-gap;
-  width: $days-in-week * $day-size + ($days-in-week - 1) * $day-gap + 2 * $calendar-padding;
+  width: $days-in-week * $day-size + ($days-in-week - 1) * $day-gap + $calendar-padding + $calendar-padding;
   padding: $calendar-padding;
 
   &__day {
